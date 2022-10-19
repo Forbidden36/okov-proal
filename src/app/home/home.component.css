@@ -1,0 +1,49 @@
+.card {
+    max-width: 15rem;
+    margin: auto;
+    background-color: rgb(245,245,244);
+
+}
+.card img {
+    max-width: 80px;
+    opacity: 0.5;
+    padding-top: 1rem;
+    height: 100%;
+    width: 100%;
+    border-radius: inherit;
+    transition: all ease-in-out 0.2s;
+}
+.card :hover img{
+    transform: scale(1.25);
+    opacity: 1;
+}
+.card a{
+    
+    color: rgb(145,149,150);
+}
+.card a:link{
+    text-decoration: none;
+}
+.card a:hover{
+    color: steelblue;
+}
+.pozadina{
+    background: url("/assets/images/carbon-steel-texture.jpg"); 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    border-radius: 1rem;
+    height: 90vh;
+    position: relative;
+    top: 50%;
+    /* transform: translateY(-50%); */
+
+}
+
+.wrap {
+    position: relative;
+    top: 20%;
+    transform: translateY(-20%); 
+}
+
