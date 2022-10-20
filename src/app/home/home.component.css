@@ -28,7 +28,7 @@
     color: steelblue;
 }
 .pozadina{
-    background: url("/assets/images/carbon-steel-texture.jpg"); 
+    background: url("./assets/images/carbon-steel-texture.jpg"); 
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
