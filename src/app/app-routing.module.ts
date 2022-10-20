@@ -13,7 +13,7 @@ const routes: Routes = [
   {path: 'AL', component: ALComponent},
   {path: 'Podizno-Klizni', component: PodiznoKlizniComponent},
   {path: 'Admin', component:AdminComponent},
-  {path: '', redirectTo: '/HOME', pathMatch: 'full'}
+  {path: '**', redirectTo: '/HOME', pathMatch: 'full'}
 ];
 
 @NgModule({
